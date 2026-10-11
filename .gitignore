@@ -1,0 +1,26 @@
+# 本机环境配置及备份
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# 员工数据、数据库、密钥及运行产物
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.key
+*.pem
+
+# 官方模型由 download_models.py 下载
+models/*.onnx
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本机实施状态
+项目状态.md
